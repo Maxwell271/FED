@@ -1,8 +1,11 @@
 /**************/
 /* CSS REMEDY */
 /**************/
-*, *::after, *::before {
-  box-sizing:border-box;  
+*,
+*::after,
+*::before {
+box-sizing: border-box;
+	font-family: quantico, sans-serif;
 }
 
 
@@ -15,17 +18,18 @@
 /*********************/
 :root {
 	/* startje */
-	--color-text:#111;
-	--color-background:#eee;
+	--color-text: #111;
+	--color-background: #eee;
 }
-
-
-
 
 
 /****************/
 /* JOUW STYLING */
 /****************/
 
-/* jouw code */
-
+nav ul {
+	flex-direction: row;
+	justify-content: space-between;
+	list-style: none;
+	text-decoration: none;
+}
