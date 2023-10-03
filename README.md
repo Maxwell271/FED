@@ -38,12 +38,20 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Je opdracht:
   https://www.schiphol.nl/
 
+#### Screenshot(s) van de eerste pagina (small screen): 
+  Home  
+  <img src="readme-images/www.schiphol.nl_nl_(iPhone 6_7_8).png" width="375px" alt="omschrijving van de pagina">
+
   #### Screenshot(s) van de eerste pagina (small screen): 
+  Vertrek  
+  <img src="readme-images/www.schiphol.nl_nl_vertrek_(iPhone 6_7_8).png" width="375px" alt="omschrijving van de pagina">
+
+  #### Screenshot(s) van de eerste pagina (full screen): 
   Home  
   <img src="readme-images/Home.jpeg" width="375px" alt="omschrijving van de pagina">
 
-  #### Screenshot(s) van de tweede pagina (small screen):
-  Vertrek
+  #### Screenshot(s) van de tweede pagina (full screen):
+  Vertrek  
   <img src="readme-images/Vertrek.jpeg" width="375px" alt="omschrijving van de pagina">
  
 </details>
@@ -58,6 +66,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
 
+  <ol>
+   <li>Veel errors</li>
+   <li>Toegankelijkheid is top</li>
+  </ol>
+
 </details>
 
 
@@ -68,13 +81,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/Schiphol breakdown-1.jpg" width="375px" alt="breakdown van de hele pagina">
+
+  <img src="readme-images/Schiphol breakdown-2.jpg" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
-
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  ....
 
 </details>
 
@@ -94,20 +106,18 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | Evi            | Melvin             | Maxwell      | Sinem            |
+  | positioneren   | Hamburgermenu      | Hamburgermenu| ...              |
+  | grid of flex   | plaatjes           | grid of flex | ...              |
+  | hamburgermenu  | ...                | ...          | ...              |
   | ...            | ...                | ...          | ...              |
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - nav beter uitwerken
+  - niet alles in divs en sections plaatsen zonder goede reden
 
 </details>
 
@@ -174,20 +184,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
-
-  ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Helaas niet aanwezig door andere les (UCD)
 
 </details>
 

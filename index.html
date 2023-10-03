@@ -1,34 +1,333 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="nl">
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="author" content="jouw naam">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Schiphol (Copy)</title>
+	<meta name="author" content="Maxwell Pels">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<title>Schiphol look-a-like</title>
-
 	<link href="styles/style.css" rel="stylesheet">
 	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
 </head>
 
 <body>
-	<nav>
-		<ul>
-			<li><img src="images/Amsterdam_Airport_Schiphol_logo_(2018–present).svg" alt="..."></li>
-			<li><a href="index.html">Vluchten</a></li>
-			<li><a href="index.html">Parkeren & Vervoer</a></li>
-			<li><a href="index.html">Shop, Proef & Ontdek</a></li>
-			<li><a href="index.html">Services</a></li>
-			<li><a href="index.html">Covid</a></li>
-			<li><img src="" alt="...">Inloggen</li>
-			<li><img src="" alt="..."></li>
-			<li>EN</li>
-			<li>NL</li>
-		</ul>
-	</nav>
+	<header>
+		<nav class="nav-top">
+			<ul>
+				<a href="index.html">
+					<li class="reizigers">Reizigers</li>
+				</a>
+				<a href="index.html">
+					<li>Alle Schiphol websites<img class="dropdown-icon" src="images/dropdown-icon.svg" alt=""></li>
+				</a>
+			</ul>
+		</nav>
+		<nav class="nav-bottom">
+			<button><img src="images/menu-icon.svg" alt="">menu</button>
+			<a href="index.html"><img class="logo" src="images/Amsterdam_Airport_Schiphol_logo_(2018–present).svg"
+					alt="Logo Schiphol"></a>
+			<section><a href="index.html">
+					<li><img class="inlog-icon" src="images/inlog-icon.svg" alt="inloggen"></li>
+				</a>
+				<a href="index.html">
+					<li><img class="zoek-icon" src="images/zoek-icon.svg" alt="zoeken"></li>
+				</a>
+			</section>
+			<ul>
+				<a href="vertrek.html">
+					<li>Vluchten</li>
+				</a>
+				<a href="index.html">
+					<li>Parkeren & Vervoer</li>
+				</a>
+				<a href="index.html">
+					<li>Shop, Proef & Ontdek</li>
+				</a>
+				<a href="index.html">
+					<li>Services</li>
+				</a>
+				<a href="index.html">
+					<li>Covid</li>
+				</a>
+			</ul>
+			<ul>
+				<a href="index.html">
+					<li><img class="inlog-icon" src="images/inlog-icon.svg" alt="inloggen">Inloggen</li>
+				</a>
 
-	<script defer src="scripts/script.js"></script>
+				<a href="index.html">
+					<li><img class="zoek-icon" src="images/zoek-icon.svg" alt="zoeken"></li>
+				</a>
+
+				<a href="index.html">
+					<li>EN</li>
+				</a>
+				<span>|</span>
+				<a href="index.html">
+					<li>NL</li>
+				</a>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<section class="part-1">
+			<img src="images/Summer_is_magic__opt_.jpeg" alt="vrouw bij security">
+
+			<!-- Dit is mij niet helemaal gelukt, omdat ik problemen met het responsive maken van de afbeelding en het verschil tussen position relative en absolute; beide werkten niet zoals ik wilde. -->
+
+			<!-- <section>
+				<section>
+					<h1>Amsterdam Airport</h1>
+					<h2>Get ready for security</h2>
+					<button><a href="index.html">Check onze tips</a></button>
+				</section>
+				<form action="">
+
+				</form>
+			</section> -->
+		</section>
+		<section>
+
+			<!-- Dit stuk heb ik ook weggelaten, omdat het bovenstaande niet is gelukt. -->
+
+			<!-- <section class="part-2">
+			<h2>Vind een vlucht</h2>
+		</section> -->
+		</section>
+		<section class="part-3">
+			<a href="index.html">
+				<article class="parkeren">
+					<img src="images/P-icon.svg" class="">
+					<section>
+						<h3>Parkeerplaats reserveren</h2>
+							<p>Kort of lang parkeren, op een plek die bij je past</p>
+					</section>
+				</article>
+			</a>
+			<a href="index.html">
+				<article class="ervaring">
+					<img src="images/baggage-icon.svg" class="">
+					<section>
+						<h3>Elk bezoek een unieke ervaring</h2>
+							<p>Kom eten, drinken, shoppen en relaxen</p>
+					</section>
+				</article>
+			</a>
+			<a href="index.html">
+				<article class="drukte">
+					<img src="images/depart-icon.svg" class="">
+					<section>
+						<h3>Verwachte drukte</h2>
+							<p>Hoe laat moet je op Schiphol zijn?</p>
+					</section>
+				</article>
+			</a>
+		</section>
+		<section class="part-4">
+			<h2>Info voor Schiphol bezoekers</h2>
+			<section>
+				<a href="index.html">
+					<article>
+						<img src="images/Kledingblog-najaarscampagne.jpg"
+							alt="twee vrouwen met baggage wijzend naar iets">
+						<h3>Trek dunne kleding aan</h3>
+						<p>Soepel door de securityscan? Trek dunne, aansluitende kleding en lage schoenen aan. Dan hoef
+							je
+							niets uit te trekken.</p>
+						<section>
+							<p href="index.html">Bekijk de dresscode</p>
+							<img src="images/arrowlink-icon.svg" alt="">
+						</section>
+					</article>
+				</a>
+				<a href="index.html">
+					<article>
+						<img src="images/handbagage__opt_.jpeg" alt="Vrouw zoekt in haar tas">
+						<h3>Mag 't in je handbagage?</h3>
+						<p>Pak je handbagage slim in. Kijk wat er wel of niet mee mag in het vliegtuig en hoe het zit
+							met
+							vloeistoffen en elektronica.</p>
+						<section>
+							<p href="index.html">Zo pak je slim in</p>
+							<img src="images/arrowlink-icon.svg" alt="">
+						</section>
+					</article>
+				</a>
+				<a href="index.html">
+					<article>
+						<img src="images/Tijdsloten_linkpost.png" alt="Schiphol medewerker staat voor je klaar">
+						<h3>Boek een gratis tijdslot</h3>
+						<p>Vanaf nu kun je op een zelf gekozen tijdstip door de securitycontrole, als je maar een
+							tijdslot
+							reserveert.</p>
+						<section>
+							<p href="index.html">Boek direct</p>
+							<img src="images/arrowlink-icon.svg" alt="">
+						</section>
+					</article>
+				</a>
+			</section>
+		</section>
+		<section class="part-5">
+			<h2>Goed om te weten</h2>
+			<section>
+				<article>
+					<h3>Klaar voor vertrek?</h3>
+					<section>
+						<h4>Check-in en bagage drop-off</h4>
+						<a href="index.html">Zo start je reis soepel<img src="images/arrowlink-icon.svg" alt=""></a>
+					</section>
+					<section>
+						<h4>Door security</h4>
+						<a href="index.html">Snel en veilig door de controle<img src="images/arrowlink-icon.svg"
+								alt=""></a>
+					</section>
+					<section>
+						<h4>Bagageregels</h4>
+						<a href="index.html">Wat mag mee? Wat niet?<img src="images/arrowlink-icon.svg" alt=""></a>
+					</section>
+				</article>
+				<article>
+					<h3>Op de luchthaven</h3>
+					<section>
+						<h4>Gevonden voorwerpen</h4>
+						<a href="index.html">Heb je iets verloren?<img src="images/arrowlink-icon.svg" alt=""></a>
+					</section>
+					<section>
+						<h4>Ervaar zelf de Privium Lounge</h4>
+						<a href="index.html">Bestel een Lounge Voucher<img src="images/arrowlink-icon.svg" alt=""></a>
+					</section>
+					<section>
+						<h4>Plattegronden</h4>
+						<a href="index.html">Kijk waar je moet zijn<img src="images/arrowlink-icon.svg" alt=""></a>
+					</section>
+				</article>
+				<article>
+					<h3>Ophalen of wegbrengen</h3>
+					<section>
+						<h4>Ophalen</h4>
+						<a href="index.html">Handig: P1 Parkeren Halen en Brengen<img src="images/arrowlink-icon.svg"
+								alt=""></a>
+					</section>
+					<section>
+						<h4>Wegbrengen</h4>
+						<a href="index.html">Snel afzetten? Kiss & Ride<img src="images/arrowlink-icon.svg" alt=""></a>
+					</section>
+					<section>
+						<h4>Alle parkeeropties</h4>
+						<a href="index.html">Altijd een passende plek<img src="images/arrowlink-icon.svg" alt=""></a>
+					</section>
+				</article>
+			</section>
+		</section>
+		<section class="part-6">
+			<h2>Laatste nieuws</h2>
+			<section>
+				<a href="index.html">
+					<article>
+						<img src="images/schiphol.jpg" alt="2 vrouwen  zijn koffers uitladen uit auto op Schiphol">
+						<h3>Trek dunne kleding aan</h3>
+						<p>Soepel door de securityscan? Trek dunne, aansluitende kleding en lage schoenen aan. Dan hoef
+							je
+							niets uit te trekken.</p>
+						<section>
+							<p href="index.html">Bekijk de dresscode</p>
+							<img src="images/arrowlink-icon.svg" alt="">
+						</section>
+					</article>
+				</a>
+				<a href="index.html">
+					<article>
+						<img src="images/Security.jpg" alt="Man scant paspoort bij toegangspoort">
+						<h3>Mag 't in je handbagage?</h3>
+						<p>Pak je handbagage slim in. Kijk wat er wel of niet mee mag in het vliegtuig en hoe het zit
+							met
+							vloeistoffen en elektronica.</p>
+						<section>
+							<p href="index.html">Zo pak je slim in</p>
+							<img src="images/arrowlink-icon.svg" alt="">
+						</section>
+					</article>
+				</a>
+				<a href="index.html">
+					<article>
+						<img src="images/terminal.jpeg" alt="Dames die wandelen met koffer in hand door terminal">
+						<h3>Boek een gratis tijdslot</h3>
+						<p>Vanaf nu kun je op een zelf gekozen tijdstip door de securitycontrole, als je maar een
+							tijdslot
+							reserveert.</p>
+						<section>
+							<p href="index.html">Boek direct</p>
+							<img src="images/arrowlink-icon.svg" alt="">
+						</section>
+					</article>
+				</a>
+			</section>
+			<a class="link" href="index.html">Lees meer blogs<img src="images/arrowlink-icon.svg" alt=""></a>
+
+		</section>
+		<section class="part-7">
+			<img src="images/hulp-icon.svg" alt="">
+			<h2>Heb je extra hulp nodig?</h2>
+			<a href="index.html">Lees alles over assistentie<img src="images/arrowlink-icon.svg" alt=""></a>
+		</section>
+	</main>
+
+	<footer>
+		<article>
+			<h2>Vluchten</h2>
+			<a href="vertrek.html">Vertrek</a>
+			<a href="#">Aankomst</a>
+			<a href="#">Overstappen</a>
+		</article>
+		<article>
+			<h2>Te doen op Schiphol</h2>
+			<a href="#">Beleef alles</a>
+			<a href="#">Shop</a>
+			<a href="#">Proef</a>
+			<a href="#">Ontdek</a>
+			<a href="#">Plaza</a>
+		</article>
+		<article>
+			<h2>Check-in</h2>
+			<a href="vertrek.html">Vertrek</a>
+			<a href="#">Aankomst</a>
+			<a href="#">Overstappen</a>
+		</article>
+		<article>
+			<h2>Parkeren op Schiphol</h2>
+			<a href="#">Alle parkeer opties</a>
+			<a href="#">Kort Parkeren</a>
+			<a href="#">Lang parkeren</a>
+			<a href="#">Affiliate programma Parking</a>
+			<a href="#">Halen & brengen (Kiss & Ride)</a>
+		</article>
+		<article>
+			<h2>Alle Schiphol websites</h2>
+			<a href="#">Royal Schiphol Group</a>
+			<a href="#">Schiphol als buur</a>
+			<a href="#">Werken bij Schiphol Group</a>
+			<a href="#">Werken op Schiphol</a>
+			<a href="#">Adverteren op Schiphol</a>
+			<a href="#">Real Estate</a>
+			<a href="#">Cargo</a>
+			<a href="#">Bedrijven op Schiphol</a>
+			<a href="#">Route Development</a>
+			<a href="#">Airport Utilities</a>
+			<a href="#">Aviation Solutions</a>
+			<a href="#">Operations</a>
+			<a href="#">APOC</a>
+			<a href="#">Jij en Schiphol</a>
+			<a href="#">Projecten op Schiphol</a>
+			<a href="#">Schiphol Telematics</a>
+			<a href="#">Developer center</a>
+			<a href="#">Innovatie</a>
+		</article>
+	</footer>
+
+	<script src="script.js" async defer></script>
 </body>
 
-</html>
+</html>x
