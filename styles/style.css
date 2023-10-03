@@ -222,7 +222,6 @@ nav ul li {
 	margin-top: 3.5em;
 	margin-bottom: 3.5em;
 	margin-inline: 1em;
-	height: fit-content;
 }
 
 .part-4 h2 {
@@ -240,7 +239,7 @@ nav ul li {
 	justify-content: space-between;
 	flex-direction: column;
 	box-shadow: 0 0.0125em 0.625em 0 rgba(20, 18, 81, .1);
-	/* height: 425px; */
+	height: 425px;
 }
 
 .part-4 section {
@@ -248,7 +247,6 @@ nav ul li {
 	grid-template-columns: repeat(3, 1fr);
 	column-gap: 1.875em;
 	max-width: 990px;
-	/* height: fit-content; */
 	margin-inline: auto;
 }
 
