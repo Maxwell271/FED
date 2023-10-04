@@ -71,6 +71,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
    <li>Toegankelijkheid is top</li>
   </ol>
 
+<img src="readme-images/WCAG 1.jpeg" width="375px">
+
 </details>
 
 
@@ -163,6 +165,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Dit kwamen uit de lijst van de toegankelijkheidstest. De voiceover werkt ook prima.
 
   Als ik meer tijd heb wil ik graag een dark mode maken, wat niet heel ingewikkeld lijkt.
+
+  <img src="readme-images/WCAG 2.jpeg" width="375px">
+
 
 </details>
 
