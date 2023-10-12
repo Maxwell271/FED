@@ -66,10 +66,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
 
-  <ol>
+  <ul>
    <li>Veel errors</li>
    <li>Toegankelijkheid is top</li>
-  </ol>
+  </ul>
 
 <img src="readme-images/WCAG 1.jpeg" width="375px">
 
@@ -136,18 +136,21 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  Ik heb er niet veel aan gewerkt, dus had niet echt iets om feedback over e krijgen.
+  Ik heb er niet veel aan gewerkt, dus had niet echt iets om feedback over te krijgen.
+
+  ### Dit ging goed/Heb ik geleerd: 
+  Om alles responsive te maken, moet je geen gebruik maken vaste waardes: pixels, em, rem, etc.
+
+  Ik moet daarvoor met percentages werken of 'auto' gebruiken. Hierdoor veranderd de grootte van elementen vanzelf en hebben ze geen vaste waardes.
+
+  Daarnaast maken @mediaquaeries het responsive compatible voor verschillende schermformaten veel makkelijker.
 
 
-  ### Agenda voor meeting
-  Maxwell:
-  - 
+  ### Dit was lastig/Is niet gelukt:
+  Helaas kan ik op dit moment niet achterhalen waarom mijn 'cards' niet meer werken. Ze breken namelijk uit elkaar en vallen niet meer in het kader dat ik heb gemaakt.
 
+  <img src="readme-images/Schermopname (633).png" width="375px" alt="bummer">
 
-  ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - 
 
 </details>
 
@@ -183,9 +186,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Stand van zaken
   Het is gelukt om grid erin te verwerken, maar niet significant veel. Daarnaast vormgeving aanzienlijk verbetrd, maar kon de tekst niet in het kader houden.
 
-  <img src="readme-images/Schermopname (604).png">
-  <img src="readme-images/Schermopname (605).png">
-  <img src="readme-images/Schermopname (603).png">
+  <img src="readme-images/Schermopname (604).png" width="375px">
+  <img src="readme-images/Schermopname (605).png" width="375px">
+  <img src="readme-images/Schermopname (603).png" width="375px">
+
+
+ Animaties heb ik beter leren beheersen. Vooral het spelen met tijd en keyframes. Ik ben blij dat ik alleen CSS hoefde te gebruiken en geen JavaScript :).
+
+  <img src="readme-images/Schermopname (634).png" width="375px">
+  <img src="readme-images/Schermopname (635).png" width="375px">
 
 
   ### Agenda voor meeting
@@ -204,8 +213,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/Webopname_4-10-2023_145956_127.0.0.1.jpeg.png" width="375px" alt="uitomst opdracht 1">
-  <img src="readme-images/Webopname_4-10-2023_15016_127.0.0.1.jpeg.png" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/Webopname_12-10-2023_114644_127.0.0.1.jpeg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/Webopname_12-10-2023_114616_127.0.0.1.jpeg" width="375px" alt="uitomst opdracht 1">
 
 
   ### Dit ging goed/Heb ik geleerd: 
@@ -215,17 +224,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="readme-images/Schermopname (609).png.png" width="375px" alt="top">
 
 
-
   ### Dit was lastig/Is niet gelukt:
-  Als ik meer tijd had, zou ik beter de position property kunnen toepassen en de website echt identiek maken als het origineel.
-
   Als ik meer tijd had wilde ik graag een dark mode maken, wat niet heel ingewikkeld leek.
 
   Bij section 3 is het niet gelukt om de border werkend te krijgen zodat het niet van vorm veranderd als je er over heen hoverd.
 
-  Animaties wilde ik graag toevoegen, maar door tijd gebrek helaas niet gelukt.
-
-  Tweede pagina afgerafeld, vanwege tijdgedrek :(
+  Tweede pagina niet helemaal geworden zoalsm ik wilde, maar functioneerd prima (responsive).
 
   <img src="readme-images/Schermopname (610).png" width="375px" alt="bummer">
 </details>
